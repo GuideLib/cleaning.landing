@@ -5,7 +5,7 @@ const Option = ({id, name, amount, price, plusHandler, minusHandler}) => {
     return (
         <div className={styles.option}>
             <p>{name}</p>
-            {price &&
+            {price > 0 &&
             <div className={styles.option_price}>
                 <p>{price}₽ x</p>
             </div>
