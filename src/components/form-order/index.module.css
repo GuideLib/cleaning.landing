@@ -1,0 +1,81 @@
+.form{
+    background-color: #EEEEEE;
+    max-width: 1200px;
+    height: 380px;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    padding-top: 44px;
+}
+
+.title {
+    margin-left: 62px;
+}
+
+.title p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.19px;
+}
+
+.options{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-column-gap: 40px;
+    padding: 0 40px;
+}
+
+.footer{
+    position: relative;
+    margin-top: 70px;
+    border-top: 1px solid #CCCCCC;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.footer_price{
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+    /*height: 286px;*/
+    border-bottom-right-radius: 20px;
+}
+
+/*.footer_price::after {*/
+/*    */
+/*}*/
+
+.footer_price p{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.footer_price p span{
+    margin-left: 45px;
+}
+
+.footer_oformlenie{
+    position: absolute;
+    width: 250px;
+    background: #3CD9C6;
+    height: 286px;
+    width: 286px;
+    border-radius: 100%;
+    right: -10px;
+    top: -110px;
+}
+
+.footer_oformlenie p{
+    margin-top: 131px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
