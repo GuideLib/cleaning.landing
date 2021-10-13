@@ -1,10 +1,11 @@
 import './App.css';
 import FormOrder from "./components/form-order";
+import CleanOptions from "./components/clean-options";
 
 function App() {
     return (
         <div>
-            <FormOrder/>
+            <CleanOptions/>
         </div>
     );
 }
