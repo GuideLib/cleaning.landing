@@ -26,21 +26,21 @@ const FormOrder = props => {
 
     return (
         <div className={styles.form}>
-            <div className={styles.title}>
+            <div className={styles.form_title}>
                 <p>Генеральная уборка</p>
             </div>
-            <div className={styles.options}>
+            <div className={styles.form_options}>
                 {options.map((option, index) => (
                     <Option key={option.id} id={option.id} name={option.name} amount={option.amount}
                             price={option.price} plusHandler={plusHandler} minusHandler={minusHandler}/>
                 ))}
             </div>
 
-            <div className={styles.footer}>
-                <div className={styles.footer_price}>
+            <div className={styles.form_footer}>
+                <div className={styles.form_footer_price}>
                     <p>Стоимость: <span>3000₽</span></p>
                 </div>
-                <div className={styles.footer_oformlenie}>
+                <div className={styles.form_footer_oformlenie}>
                     <p>Перейти к оформлению</p>
                 </div>
             </div>
